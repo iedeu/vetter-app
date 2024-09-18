@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0"
+          }
+        }
+      ]
+    ],
+    "name": "Vetter",
+    "slug": "Vetter",
+    "version": "1.0.4",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ce7c2b64-5319-4d85-8e69-c39d816b81dc"
+      }
+    },
+    "android": {
+      "package": "com.vetter.app",
+      "versionCode": 4,
+      "versionName": "1.0.4"
+    }
+  }
+}
